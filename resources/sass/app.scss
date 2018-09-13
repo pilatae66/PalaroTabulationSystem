@@ -1,0 +1,24 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// You might have to change the font-path, we'll come to this later
+$fa-font-path:  "webfonts/" !default;
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-regular";
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-solid";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.table .hoverable{
+    cursor: pointer;
+}
